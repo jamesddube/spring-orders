@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/spring_orders?useSSL=false
+    username: root
+    password: sead2301
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: false
+
